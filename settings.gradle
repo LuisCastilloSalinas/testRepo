@@ -1,0 +1,7 @@
+rootProject.name = 'rule'
+
+include 'rule-infrastructure'
+
+include 'rule-application'
+
+include 'rule-domain'

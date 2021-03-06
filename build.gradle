@@ -1,0 +1,28 @@
+allprojects{
+    apply plugin: 'java'
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+ 
+repositories {
+	mavenCentral()
+}
+}
+
+group = 'com.mrisk'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+ 
+}
+
+
+test {
+	useJUnitPlatform()
+	testLogging {
+      events "passed", "skipped", "failed"
+    }
+}
+
+ 

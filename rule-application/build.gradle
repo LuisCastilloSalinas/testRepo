@@ -1,0 +1,11 @@
+group = 'com.mrisk'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+
+dependencies {
+	
+	compile project(":rule-domain")
+	compile 'org.projectlombok:lombok:1.18.18'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
